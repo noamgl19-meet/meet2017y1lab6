@@ -3,8 +3,7 @@ UP_ARROW = "Up"
 LEFT_ARROW ="Left"
 DOWN_ARROW = "Down"
 RIGHT_ARROW = "Right"
-RIGHT_SHIFT = "Penup"
-LEFT_SHIFT = "Pendown"
+
 SPACEBAR = "space"
 
 UP = 0
@@ -55,8 +54,7 @@ turtle.onkeypress(up, UP_ARROW)
 turtle.onkeypress(down, DOWN_ARROW)
 turtle.onkeypress(left, LEFT_ARROW)
 turtle.onkeypress(right, RIGHT_ARROW)
-turtle.onkeypress(up, RIGHT_SHIFT)
-turtle.onkeypress(down, LEFT_SHIFT)
+
 turtle.listen()
 
 turtle.mainloop()
